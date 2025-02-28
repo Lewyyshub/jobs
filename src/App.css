@@ -1,7 +1,12 @@
 @import "tailwindcss";
+@font-face {
+  font-family: "Spartan";
+  src: url(./assets/fonts/LeagueSpartan-Regular.ttf);
+}
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Spartan";
 }
 body {
   background-color: rgba(239, 250, 250, 1);
